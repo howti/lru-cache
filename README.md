@@ -4,7 +4,7 @@ LRU cache implemented in golang
 
 Usage
 =====
-`go
+```go
 package main
 import(
     "github.com/howti/lru-cache"
@@ -15,4 +15,4 @@ func main() {
 	val, ok := lru.Get("Testkey")
     fmt.Println("Is cache hit?", ok, "Value:", val)
 }
-`
+```
